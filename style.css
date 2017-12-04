@@ -1,0 +1,305 @@
+*{margin:0;}
+ 
+ a{text-decoration: 0px;}
+
+.container{
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1170px;
+	text-align: center;
+}
+
+h1{
+	font-size: 42px;
+	color: white;
+}
+
+h2{
+	font-size: 40px;
+	margin: 
+}
+
+body{
+	margin: 0px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 18px;
+	color:#707070;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*HEADER*/
+header{
+	background: red;
+	height: 100px;
+	padding-top: 40px;
+}
+
+header a.logo {
+	display: inline-block;
+	background-image: url(assets/01_Index2.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 46px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    padding-right: 130px;
+}
+
+.entete{
+	line-height: 40px;
+	color: white;
+}
+
+.header figure{float: left;}
+
+.entete li{
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+
+.entete li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+.shoplogin{float: right;}
+
+#Shop{
+	border:1px solid white;
+	border-radius: 45px;
+	padding: 10px 30px 10px 30px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#Shop:hover{
+	background: white;
+	border: 1px solid white;
+	color : red;
+}
+
+/* DEVICE */
+
+.Device{
+	background: red;
+	height:850px;
+}
+ 
+h1.connect{
+	width: 50%;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.boxDevice{
+	width: 55%;
+	padding-top: 250px;
+	float: left;
+}
+
+.boxDevice p {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+span#Started {
+	border:1px solid white;
+	border-radius: 45px;
+	padding: 10px 30px 10px 30px;
+	color: white;
+	margin: 0px 15px 0px 5px;
+}
+
+span#Started:hover{
+	background: white;
+	border:1px solid white;
+	color : red;
+}
+
+.bouttonDevice{
+	padding-top: 135px;
+	text-align: left;
+}
+
+.mac{
+	position: absolute;
+	padding-top: 305px;
+    margin-left: 590px;
+}
+
+/* FOOTER */
+
+.Sponsor{
+	margin-bottom: 150px;
+}
+
+.trusted{
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	color:#c62650;
+	margin: 0px auto;
+	margin-bottom: 110px;
+}
+
+.containerlogos{
+	text-align: center;
+	width: 100%;
+}
+
+.logos{   
+	display: inline-block;
+	width: 24%;
+}
+
+#nelco{
+	margin-bottom: 20px;
+}
+
+#rivermeadow{
+	margin-bottom: -10px;
+}
+
+h2.demotitle{
+	padding-bottom: 90px;
+}
+
+.Demo{
+	background: #242f39;
+	color:white;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom:115px;
+}
+
+a.buttondemo{text-decoration: none;}
+
+#buttondemo:hover {
+	color: white;
+	background: black;
+	border: 2px solid white;
+}
+
+#buttondemo{
+	background: white;
+	border:2px solid white;
+	border-radius: 45px;
+	padding: 15px 68px 15px 68px;
+	color: #242f39;
+}
+
+#subscribe{
+	color: white;
+	border: 2px solid #c62650;
+    background: #c62650;
+    border-radius: 45px;
+    position: absolute;
+    margin-left: -270px;
+    padding: 85px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#subscribe:hover{
+	border: 2px solid #c62650;
+	background: white;
+	color: #c62650;
+}
+
+.Subscribe{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.formbox{
+	text-align: center;
+	width: 850px;
+    display: inline-block;
+    margin-bottom: 150px;
+}
+
+input.form{
+	border-style:none;
+	height: 60px;
+	border-radius: 45px;
+	width: 95%;
+	padding-left: 35px;
+	box-shadow: 0px 2px 15px #c62650;
+	font-size: 16px;
+
+}
+
+.form{
+	width: 100%;
+}
+
+li{
+	list-style: none;
+}
+
+ul{
+	padding: 0px;
+	text-align: left;
+}
+
+.floaterislife{
+	margin-bottom: 150px;
+    height: 100px;
+}
+
+.floatleft{
+	float: left;
+}
+
+.floatleft img{
+	color: #242f39;
+}
+
+#floater2{
+	text-align: left;
+}
+
+.floatmid{
+	display: inline-block;
+}
+
+#floater3{
+	text-align: left;
+}
+
+.floatright{
+	float:right;
+	display: inline-block;
+}
+
+.Bottom {
+	margin-top: 100px;
+	background: #242f39;
+	color: #707070;
+	text-align: center;
+	padding:20px;
+}
+
+span#huriright {
+	color: #c62650;
+}
+
+#subscribe {
+	border: 2px solid #c62650;
+	background: #c62650;
+	border-radius: 30px;
+	position: absolute;
+}
+
+.lifooter{
+	line-height: 42px;
+}
+
+.lifooter:hover{
+	color: red;
+}
