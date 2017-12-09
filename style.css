@@ -35,6 +35,13 @@ h5{
 	color: white;
 }
 
+h6{
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #c62650;
+
+}
 
 
 body{
@@ -67,6 +74,7 @@ section {
 }
 
 /*HEADER*/
+
 header {
 	height: 100px;
 	padding-top: 40px;
@@ -79,7 +87,7 @@ header#index{
 }
 	
 header#others{
-	background: red;
+	background: #c62650;
 }
 
 header a.logo {
@@ -127,13 +135,13 @@ header a.logo {
 #Shop:hover{
 	background: white;
 	border: 1px solid white;
-	color : firebrick;
+	color : #c62650;
 }
 
 /* DEVICE */
 
 .Device{
-	background: linear-gradient(to top right, #8c1b39, #e4174d);
+	background: linear-gradient(to top right, #8c1b39, #c62650);
 	height:850px;
 }
  
@@ -166,7 +174,7 @@ span#Started {
 span#Started:hover{
 	background: white;
 	border:1px solid white;
-	color : firebrick;
+	color : #c62650;
 }
 
 .bouttonDevice{
@@ -179,8 +187,6 @@ span#Started:hover{
 	padding-top: 305px;
     margin-left: 590px;
 }
-
-.mac img{max-width: 100%}
 
 /* NEED */
 
@@ -236,7 +242,7 @@ section.Need{
     }
 
 .fondnoir.intropara{
-	background-color: black;
+	background-color: #242f39;
 
 }
 
@@ -244,14 +250,14 @@ section.Need{
 	margin-top: 50px;
 	padding-top: 10px;
 	color: white;
-	background: black;
+	background: #242f39;
 }
 
 .homevoice::after{
 	display: block;
 	content: "";
 	height: 110px;
-    background: black;
+    background: #242f39;
     transform: skew(0,175deg);
     position: relative;
     z-index: -1;
@@ -273,7 +279,7 @@ section.Need{
 /* CITATION */ 
 
 .Citation{height:675px;
-background-color: lightgrey;}
+background-color: #f8f8f8;}
 
 #guillemets{
 	text-align: center;
@@ -299,7 +305,7 @@ background-color: lightgrey;}
 #Jeanroche::before{
 	content: "";
 	display: inline-block;
-	background-color: red ;
+	background-color: #c62650 ;
 	height: 4px;
 	width: 80px;
 	margin-bottom: 5px;
@@ -328,14 +334,13 @@ padding-bottom: 110px;
 /* Pricing */
 
 .Pricing{
-	background-color: firebrick;
+	background-color: #c62650;
 	height: 765px;
 }
 
 #titrepricing{
-	font-size: 29px;
+	font-size: 30px;
 	line-height: 42px;
-	width: 30%;
 	margin-top: 80px;
 }
 
@@ -349,35 +354,164 @@ padding-bottom: 110px;
 	line-height: 42px;
 	border:1px solid white;
 	border-radius: 45px;
-	padding: 10px 43px 10px 43px;
+	padding: 10px 40px 10px 40px;
 	color: white;
 }
 
 .boutonPricing:hover{
 	background: white;
 	border:1px solid white;
-	color : firebrick;
+	color : #c62650;
 }
 
 #boutonweekly{
-	padding: 10px 53px 10px 53px;
+	padding: 10px 52px 10px 52px;
+	margin-left: 10px;	
 }
 
 
-.Pricing p {
+#pricingparagraphe {
 	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	color: white;
 	margin-top: 85px;
 	margin-bottom: 60px;
-	width: 33%;
+
 }
-.Pricing a {
+
+#pricingdetails {
 	text-transform: uppercase;
 	font-family: 'Roboto';
 	color: white;
 	text-align: left;
 	display: inherit;
+}
+
+.whitecards{
+	margin-top: 85px; 
+	background-color: white;
+	height: 600px;
+	width: 370px;
+}
+
+
+#pricingtexte{width: 370px;}
+
+.cerclerougefond{
+	position: relative;
+    transform: scale(10);
+    background-color: #c62650;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    top: -450px
+}
+
+.textepricingcards{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	width: 260px;
+	margin: 0px 70px 0px 40px;
+}
+
+.listepricing{line-height: 35px;}
+
+.whitecards h2{ 
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+
+.boutonPricing2{
+	display: inline-block;
+	margin-top: 60px;
+	font-family: 'Roboto';
+	border:1px solid blue;
+	border-radius: 45px;
+	padding: 10px 70px 10px 70px;
+	text-align: center;
+}
+
+.boutonPricing2 span {color: blue;}
+
+/* BENEFITS */
+
+.Benefits{
+	height: 830px;
+}
+
+#titlebenefits {
+    display: inline-block;
+    background-image: url(assets/01_Index3.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 58px;
+    padding-left: 65px;
+    text-decoration: none;
+    color: black;
+    margin-top: 170px;
+}
+
+.benefitselipse{
+	margin-top: 85px;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.benefitsdescription{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	margin:41px;
+}
+
+/* APPS */
+
+.Apps{
+	height: 845px;
+	background-color: #5842dc;
+	overflow:visible;
+}
+
+#Downloadapp{
+	color: white;
+	padding-top: 130px;
+	margin-bottom: 10px;
+}
+
+#paraApps{
+	display: inline-block;
+	color:white;
+	width: 660px;
+	margin-bottom: 40px;
+}
+
+.buttonApps{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+	background-color: #1a181a;
+	border-radius: 30px;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.divAppsBoutton{
+	margin-top: 190px;
+}
+
+#GooglePlay{
+	
+}
+
+#Apple{
+	
+}
+
+/* NEWS */
+
+.News{
+	height: 1000px;
 }
 
 /* FOOTER */
@@ -415,6 +549,7 @@ padding-bottom: 110px;
 
 h2.demotitle{
 	padding-bottom: 90px;
+	color: white;
 }
 
 .Demo{
@@ -554,5 +689,5 @@ span#huriright {
 }
 
 .lifooter a:hover{
-	color: firebrick;
+	color: #c62650;
 }
