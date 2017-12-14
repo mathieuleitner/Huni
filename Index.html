@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="assets/FontAwesome/web-fonts-with-css/css/fontawesome-all.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Huni | Home</title>
 </head>
 <body>
 <header class="header" id="index">
@@ -26,7 +27,7 @@
 					<a href="#">Pricing</a>
 				</li>
 				<li>
-					<a href="#">Blog</a>
+					<a href="Blog.html">Blog</a>
 				</li>
 				<li>
 					<a href="#">contact</a>
@@ -54,12 +55,12 @@
 					We Offer A Full Range introzap service in the worldwide just make your area save
 				</p>
 				<div class="bouttonDevice">
-					<span id="Started">
+					<a href="#" id="Started">
 						Get Started
 					</span>
-					<span id="Started">
+					<a href="#" id="BuyNow">
 						Buy Now
-					</span>
+					</a>
 				</div>
 			</div>
 			<figure class="mac">
@@ -211,14 +212,14 @@
 				<div class="textepricingcards">
 					<p>Plan, Pay-as-You-Go, and Month-ly plan options,</p> 
 					<ul class="listepricing">
-						<li>Up to 40 active</li>
-						<li>Unlimited Profiles</li> 
-						<li>Unlimited Emails</li>
-						<li>Ongoing success webinars</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Up to 40 active</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Unlimited Profiles</li> 
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Unlimited Emails</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Ongoing success webinars</li>
 					</ul>
 				</div>
-				<a class="boutonPricing2" href="#">
-					<span>Get Started</span>
+				<a href="#">
+					<button class="boutonPricing2" >Get Started</button>
 				</a>
 			</div>
 			<div class="floatright whitecards" id="cardright">	
@@ -228,14 +229,14 @@
 				<div class="textepricingcards">
 					<p>Building, and scaling your device connectivity seamlessly.</p> 
 					<ul class="listepricing">
-						<li>Up to 100 active</li>
-						<li>Unlimited Profiles</li> 
-						<li>Unlimited Emails</li>
-						<li>Ongoing success webinars</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Up to 100 active</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Unlimited Profiles</li> 
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Unlimited Emails</li>
+						<li><span class="fas fa-arrow-alt-circle-right"></span>Ongoing success webinars</li>
 					</ul>
 				</div>
-				<a class="boutonPricing2" href="#">
-					<span>Get Started</span>
+				<a href="#">
+					<button class="boutonPricing2">Get Started</button>
 				</a>
 			</div>	
 		</div>
@@ -286,16 +287,16 @@
 			<p class="intropara" id="paraApps">
 			With the free Developer Plan, Pay-as-You-Go, and Monthly plan options, Hologram's IoT cellular platform offers simple, transparent pricing plans for getting started, building
 			</p>
-			<div class="floater">
-				<div class="floatleft float divAppsBoutton">
-					<a href="#" class="buttonApps" id="Apple">
-						<span>Download Apps</span>
+			<div id="Iphonebuttons">
+				<div class="floatleft divAppsBoutton">
+					<a href="#" class="buttonApps">
+						<span id="Apple" class="fab fa-apple"></span><p>Download Apps</p>
 					</a>
 				</div>
-				<img class="float floatmid" src="assets/iphone.png">
-				<div class="floatright float divAppsBoutton">
-					<a href="#" class="buttonApps" id="GooglePlay">
-						<span>Google Play</span>
+				<img class="floatmid" src="assets/iphone.png">
+				<div class="floatright divAppsBoutton">
+					<a href="#" class="buttonApps">
+						<span id="GooglePlay" class="fab fa-google-play"></span><p>Google Play</p>
 					</a>
 				</div>
 			</div>
@@ -304,7 +305,24 @@
 
 	<section class="News">
 		<div class="container">
-			
+			<h2>Recent news</h2>
+			<p class="intropara">Here small titles for recent Blog with other cellular providers and worrying about cellular data plans, Hologram allowed us to seamlessly deploy our devices.</p>
+			<div>
+				<div class="floatleft cardsNews" id="cardsLeft">
+					<figure class="emplacementPhoto" id="emplacementPhotoGauche"></figure>
+					<h7>Things you need to know before renting out your home</h7>
+				</div>
+				<div class="floatmid cardsNews" id="cardsMilieu">
+					<figure class="emplacementPhoto" id="emplacementPhotoMilieu"></figure>
+					<h7 id="titreNewsMilieu">Sort your paperwork for home loan success</h7>
+				</div>
+				<div class="floatright cardsNews" id="cardsRight">
+					<figure class="emplacementPhoto" id="emplacementPhotoDroite"></figure>
+					<h7 id="titreNewsDroite">One of Kymera System's main strenghs lies in PLC</h7>
+					
+
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -342,21 +360,36 @@
 	<section class="Subscribe">
 		<div class="container">
 			<form class="formbox">
-				<input class="form" placeholder="Type your email"><span id="subscribe">SUBSCRIBE</span></input>
+				<div>
+				<input class="form" placeholder="Type your email"></input>
+				<button type="submit" id="subscribe">Subscribe</button>
+				</div>
 			</form>
 
 			<div class="floaterislife">
-				<div class="floatleft">
-					<ul>
-						<li class="lifooter">
+				<div class="floatleft" >
+						<li class="lifooter" id="Logohuni">
 							<img src="assets/01_Index.jpg">	
 						</li>
-						<li class="lifooter">
-							<span></span>
+					<ul id="SocialMedia">
+						
+						<li class="iconesocial">
+							<a href="#"><span class="fab fa-facebook-f"></span></a>
 						</li>
+						<li class="iconesocial">
+							<a href="#"><span class="fab fa-twitter"></span></a>
+						</li>
+						<li class="iconesocial">
+							<a href="#"><span class="fab fa-pinterest-p"></span></a>
+						</li>
+						<li class="iconesocial">
+							<a href=""><span class="fab fa-dribbble"></span></a>
+						</li>
+						
 					</ul>
 				</div>
-				<div class="floatmid">
+				<div class="floatmid" id="contactus">
+
 					<ul id="floater2">
 						<li class="lifooter">
 							<a href="#">+8801912704287</a>

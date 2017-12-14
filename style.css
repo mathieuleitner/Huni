@@ -16,6 +16,13 @@ html{
     z-index: 2;
 }
 
+.container2{
+	margin: 0 auto;
+	width: 1170px;
+	position: relative;
+    z-index: 2;
+}
+
 h1{
 	font-size: 42px;
 	color: white;
@@ -40,7 +47,22 @@ h6{
 	line-height: 32px;
 	font-weight: bold;
 	color: #c62650;
+}
 
+h7{
+	color: black;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: left;
+	display: inline-block;	
+}
+
+h8{
+	font-size: 22px;
+	line-height: 50px;
+	font-weight: bold;
+	color: #c62650;
 }
 
 
@@ -87,7 +109,7 @@ header#index{
 }
 	
 header#others{
-	background: #c62650;
+	background: #bf0436;
 }
 
 header a.logo {
@@ -102,6 +124,10 @@ header a.logo {
     text-decoration: none;
     color: white;
     padding-right: 130px;
+}
+
+#headerpages{
+	background-color: #c62650;
 }
 
 .entete{
@@ -133,6 +159,7 @@ header a.logo {
 }
 
 #Shop:hover{
+	cursor:pointer;
 	background: white;
 	border: 1px solid white;
 	color : #c62650;
@@ -163,15 +190,30 @@ h1.connect{
 	text-align: left;
 }
 
-span#Started {
+a#Started {
 	border:1px solid white;
 	border-radius: 45px;
-	padding: 10px 30px 10px 30px;
+	padding: 10px 52px 10px 52px;
 	color: white;
-	margin: 0px 15px 0px 5px;
+	margin-right: 20px;
 }
 
-span#Started:hover{
+a#BuyNow{
+	border:1px solid white;
+	border-radius: 45px;
+	padding: 10px 65px 10px 65px;
+	color: white;
+}
+
+a#Started:hover{
+	cursor:pointer;
+	background: white;
+	border:1px solid white;
+	color : #c62650;
+}
+
+a#BuyNow:hover{
+	cursor:pointer;
 	background: white;
 	border:1px solid white;
 	color : #c62650;
@@ -300,6 +342,7 @@ background-color: #f8f8f8;}
 
 #Jeanroche {
 	text-transform: uppercase;
+	color: black;
 }
 
 #Jeanroche::before{
@@ -359,6 +402,7 @@ padding-bottom: 110px;
 }
 
 .boutonPricing:hover{
+	cursor:pointer;
 	background: white;
 	border:1px solid white;
 	color : #c62650;
@@ -409,10 +453,10 @@ padding-bottom: 110px;
 }
 
 .textepricingcards{
-	font-family: 'Roboto', sans-serif;
-	text-align: left;
-	width: 260px;
-	margin: 0px 70px 0px 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 260px;
+    margin: 0px 0px 0px 70px
 }
 
 .listepricing{line-height: 35px;}
@@ -423,16 +467,36 @@ padding-bottom: 110px;
 }
 
 .boutonPricing2{
+	outline: none;
+	background-color: white;
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 50px;
 	font-family: 'Roboto';
 	border:1px solid blue;
 	border-radius: 45px;
-	padding: 10px 70px 10px 70px;
+	padding: 10px 60px 10px 60px;
 	text-align: center;
+	transform: scale(1.2);
+	color: blue;
 }
 
-.boutonPricing2 span {color: blue;}
+.boutonPricing2:hover{
+	cursor:pointer;
+	color: white;
+	outline: none;
+	background-color: blue;
+	display: inline-block;
+	margin-top: 50px;
+	font-family: 'Roboto';
+	border:1px solid blue;
+	border-radius: 45px;
+	padding: 10px 60px 10px 60px;
+	text-align: center;
+	transform: scale(1.2);
+}
+
+.fa-arrow-alt-circle-right{color: blue;
+margin-right: 5px}
 
 /* BENEFITS */
 
@@ -487,26 +551,43 @@ padding-bottom: 110px;
 }
 
 .buttonApps{
-	font-family: 'Merriweather Sans', sans-serif;
-	font-weight: 300;
-	background-color: #1a181a;
-	border-radius: 30px;
-	color: white;
-	padding: 20px;
-	font-size: 20px;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    background-color: #1a181a;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    padding: 17px 0px 17px 0px;
 }
 
 .divAppsBoutton{
-	margin-top: 190px;
+	margin-top: 175px;
+}
+
+#Iphonebuttons{
+	width: 950px;
+	display: inline-block;
 }
 
 #GooglePlay{
-	
+	color: #5cdadd;
+    margin-left: -75px;
+    position: absolute;
+    margin-top: 10px;
+    transform: scale(1.3);
+}
+ #Apple{
+    margin-left: -90px;
+    position: absolute;
+    margin-top: 7px;
+    transform: scale(1.8);
 }
 
-#Apple{
-	
-}
+.divAppsBoutton a p{
+	margin-left: 40px;
+} 
 
 /* NEWS */
 
@@ -514,10 +595,32 @@ padding-bottom: 110px;
 	height: 1000px;
 }
 
+.News p{margin-bottom: 110px;} 
+
+.News div.container{margin-top: 430px;} 
+
+.emplacementPhoto{background-color: lightgrey;
+height: 150px;
+width: 370px;
+margin-bottom: 35px;
+}
+
+.cardsNews{height: 290px;
+	border-bottom: solid 3px lightgrey;
+	width: 370px;}
+
+div.cardsNews:hover{
+	cursor:pointer;
+	border-bottom: solid 3px #c62650;
+}
+
 /* FOOTER */
 
+.Sponsor .container{margin-top: 110px;}
+
 .Sponsor{
-	margin-bottom: 150px;
+	height: 530px;
+	
 }
 
 .trusted{
@@ -548,6 +651,7 @@ padding-bottom: 110px;
 }
 
 h2.demotitle{
+	margin-top: 90px;
 	padding-bottom: 90px;
 	color: white;
 }
@@ -556,15 +660,15 @@ h2.demotitle{
 	background: #242f39;
 	color:white;
 	text-align: center;
-	padding-top: 90px;
-	padding-bottom:115px;
+	height: 410px;
 }
 
 a.buttondemo{text-decoration: none;}
 
-#buttondemo:hover {
+#buttondemo:hover{
+	cursor:pointer;
 	color: white;
-	background: black;
+	background: #242f39 ;
 	border: 2px solid white;
 }
 
@@ -577,33 +681,34 @@ a.buttondemo{text-decoration: none;}
 }
 
 #subscribe{
-	color: white;
-	border: 2px solid #c62650;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 60px 0px 60px;
+    font-size: 20px;
+    line-height: 61px;
+    color: white;
+    border: 2px solid #c62650;
+    margin-left: 193px;
     background: #c62650;
     border-radius: 45px;
     position: absolute;
-    margin-left: -270px;
-    padding: 85px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: 2px solid #c62650;
-	background: #c62650;
-	border-radius: 30px;
-	position: absolute;
+    margin-top: -66px;
+   
 }
 
 #subscribe:hover{
+	cursor:pointer;
 	border: 2px solid #c62650;
 	background: white;
 	color: #c62650;
 }
 
 .Subscribe{
-	margin-top: 150px;
-	margin-bottom: 150px;
+	height: 680px;
 }
 
 .formbox{
+	margin-top: 150px;
 	text-align: center;
 	width: 850px;
     display: inline-block;
@@ -672,12 +777,12 @@ ul{
 }
 
 .Bottom {
-	margin-top: 100px;
+	height: 110px;
 	background: #242f39;
 	color: #707070;
 	text-align: center;
-	padding:20px;
 }
+.Bottom p {margin-top: 40px;}
 
 span#huriright {
 	color: #c62650;
@@ -689,5 +794,192 @@ span#huriright {
 }
 
 .lifooter a:hover{
+	cursor:pointer;
 	color: #c62650;
+}
+
+.iconesocial{
+	display: inline-block;
+	height: 40px;
+    width: 40px;
+}
+
+.iconesocial a span{
+	color: #c62650;
+	margin-right: 25px;
+	margin-top: 35px;
+}
+
+#SocialMedia{
+	display: inline-block;
+}
+
+#Logohuni{
+    height: 50px;
+    margin-left: -60px;}
+
+#contactus{margin-left: -10px;}
+
+/* BLOG */ 
+
+.Blog{
+	height: 240px;
+	background-color: lightgrey;
+}
+
+#titreBlog{margin-top: 110px;}
+
+.fildarianne ul {display: inline-flex;
+margin-top:40px;}
+
+.fildarianne ul li{margin-right: 10px;}
+
+.fildarianne ul li a, .fildarianne ul li {
+	color: #bf0436;
+}
+
+/* ARTICLE BLOG */ 
+
+#containerArticleBlog{margin-top: 130px;}
+
+h8#titreBlog{text-transform: uppercase;}
+
+h9{
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #bf0436;
+}
+
+.enteteBlog{
+	display: inline-block;
+	float: left;
+	height:250px;
+	width: 800px;
+}
+
+#SearchBlog{
+    padding-left: 25px;
+    outline: none;
+    border: solid 1px lightgrey;
+    height: 50px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 45px;
+    width: 270px;
+    font-size: 16px;
+}
+
+article.ArticlesBlog {
+	display: inline-block;
+	margin-bottom: 60px;
+}
+
+#pageBlog p {font-size: 16px;
+line-height: 36px;
+color: black;}
+
+img#imageBlog{
+	margin-right: 35px;
+	float: left;
+	height: 240px;
+	width: 300px;
+	background-color: lightgrey;
+}
+
+p#paraBlog{margin-top: 25px;}
+	
+#Explore, #Like, #Tweet, #CommentsArticle{	
+	line-height: 36px;
+    font-family: 'Roboto';
+    font-size:15px;
+}
+
+#Explore{
+	text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 16px;
+    float: left;
+    width: 180px;
+    background-color: #bf0436;
+    border-radius: 45px;
+    border: 2px #bf0436 solid;
+}
+
+#Explore:hover{
+	cursor:pointer;
+	text-align: center;
+    color: #bf0436;
+    margin-top: 15px;
+    font-size: 16px;
+    float: left;
+    height: 36px;
+    width: 180px;
+    background-color: white;
+    border-radius: 45px;
+    border: 2px #bf0436 solid;
+}
+
+#CommentsArticle{
+	float: left;
+	margin:20px 0px 0px 30px;
+}
+
+p#CommentsArticle{
+	color: #c22650;
+	font-size: 15px;
+}
+
+#Like{
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+	color: white;
+	width: 105px;
+	background-color: #4267b2;
+}
+
+#Tweet{
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 20px;
+	float: right;
+	color: white;
+	width: 105px;
+	background-color: #1b95e0;
+}
+
+span.fab.fa-facebook-f{
+	margin-right: 5px;
+}
+
+span.fab.fa-twitter{
+	margin-right: 5px;
+}
+
+#nombredePage{
+	width: 100%;
+	text-align: center;
+}
+
+.nombredepage{
+	font-family: 'Roboto';
+	display: inline-block;
+	text-align: center;
+	color: black;
+	margin: 10px;
+}
+
+ul#nombredePage li a{
+	color: black;
+	font-weight: bold;
+	font-size: 24
+}
+
+ul#nombredePage li a:hover{
+	cursor:pointer;
+	color: #bf0436;
+	font-weight: bold;
+	font-size: 24
 }
