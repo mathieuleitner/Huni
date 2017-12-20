@@ -159,6 +159,7 @@ header a.logo {
 }
 
 #Shop:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	background: white;
 	border: 1px solid white;
@@ -206,6 +207,7 @@ a#BuyNow{
 }
 
 a#Started:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	background: white;
 	border:1px solid white;
@@ -213,6 +215,7 @@ a#Started:hover{
 }
 
 a#BuyNow:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	background: white;
 	border:1px solid white;
@@ -402,6 +405,7 @@ padding-bottom: 110px;
 }
 
 .boutonPricing:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	background: white;
 	border:1px solid white;
@@ -481,6 +485,7 @@ padding-bottom: 110px;
 }
 
 .boutonPricing2:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	color: white;
 	outline: none;
@@ -610,6 +615,7 @@ margin-bottom: 35px;
 	width: 370px;}
 
 div.cardsNews:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	border-bottom: solid 3px #c62650;
 }
@@ -618,7 +624,7 @@ div.cardsNews:hover{
 
 .Superentete{
 	height: 240px;
-	background-color: lightgrey;
+	background-color: #f9f8fa;
 }
 
 #titreEntete{margin-top: 110px;}
@@ -676,7 +682,7 @@ article.ArticlesBlog {
 	margin-bottom: 60px;
 }
 
-#pageSite p {
+.pageSite p {
 	font-family: 'Roboto';
 	font-size: 16px;
 	line-height: 36px;
@@ -711,6 +717,7 @@ p#paraBlog{margin-top: 25px;}
 }
 
 #Explore:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	text-align: center;
     color: #bf0436;
@@ -786,6 +793,7 @@ ul#nombredePage li a{
 }
 
 ul#nombredePage li a:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	color: #bf0436;
 	font-weight: bold;
@@ -847,6 +855,7 @@ h10{
 }
 
 #SendMessage:hover{
+	transition-duration: 0.3s;
 	background-color: white;
 	color: #c62650;
 	border: #c62650 2px solid;
@@ -941,6 +950,7 @@ li.iconeContact a span{
 }
 
 .iconeContact:hover{
+	transition-duration: 0.3s;
 	color: white;
     display: inline-block;
     width: 60px;
@@ -957,6 +967,7 @@ li.iconeContact a span{
 }
 
 li.iconeContact a span:hover{
+	transition-duration: 0.3s;
 	color: white;
 	font-size: 16px;
 }
@@ -969,7 +980,7 @@ li.iconeContact a span:hover{
 	text-align: left;
 	position: relative;
     z-index: 2;
-    height: 470px;
+    height: 3100px;
 }
 
 #SearchBlogDetails{
@@ -1008,9 +1019,7 @@ asside{
 	text-transform: uppercase;
 }
 
-
 #BlogCategories{margin-bottom: 50px;}
-
 
 
 #NameBlogDetails{
@@ -1056,6 +1065,7 @@ asside{
 }
 
 #SubmitBlogDetails:hover{
+	transition-duration: 0.3s;
 	float: left;
     font-family: 'Roboto';
     font-size: 16px;
@@ -1070,10 +1080,10 @@ asside{
 
 .ListAssideDetails a {color: black;}
 
-
-
-
-
+.ListAssideDetails a:hover {
+	color: #bf0436;
+	transition-duration: 0.3s;
+}
 
 .entetePageDetails {
     display: inline-block;
@@ -1113,6 +1123,265 @@ p#CommentsArticleDetails{
 	background-color: #4267b2;
 }
 
+#FirstPartyDetails{
+	display: inline-block;
+}
+
+#SecondPartyDetails{
+	margin-top: 20px;
+}
+
+#SecondPartyDetails p 	{
+	color: #4d4d4d;
+}
+
+#SecondPartyDetails figure {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	width: 870px;
+	height: 485px;
+	background-color: #ebebeb;
+}
+
+#HowToLeverage{
+	width: 600px;
+	margin-bottom: 75px;
+}
+
+#MiddlePneedMargin{margin-top: 45px;}
+
+h11{
+	margin: 45px 0px;
+	display: inline-block;
+    padding: 75px 0px;
+    width: 870px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    line-height: 36px;
+    font-family: 'Roboto';
+    background-color: white;
+    background-color: #c62650;
+    font-weight: bolder
+}
+
+h12{
+	display: inline-block;
+	font-family: 'Roboto';
+	font-size: 22px;
+	color: black;
+	font-weight: bolder;
+}
+
+#BreakDown{
+	margin-top: 55px;
+	margin-bottom: 30px;
+}
+
+#SpecialOffer{
+	margin-top: 70px;
+}
+
+h13{
+	display: inline-block;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-style: italic;
+	color: #c62650;
+	margin: 30px 0px;
+}
+
+h14{
+	color: black;
+    font-size: 29px;
+    font-weight: bolder;
+}
+
+h15{
+	color: black;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bolder;
+}
+
+h16{
+	font-size: 16px;
+	line-height: 30px;
+	font-family:'Roboto';
+	font-weight: bolder;
+	color: black;
+	
+}
+
+.containerDetailsComm{
+	width: 800px;
+}
+
+.containerDetailsComm figure{
+	height: 100px;
+    width: 100px;
+    background: gray;
+    margin-top: 35px;
+    float: left;
+}
+
+.containerDetailsComm p{
+    width: 660px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#AuthorCommentairesBlogDetails{
+	margin-top: 120px;
+}
+
+.ProfilNamePicture{
+	width: 100px;
+    float: left;
+    text-align: right;
+}
+
+.ProfilNamePicture figure{
+	margin-bottom: 15px;
+}
+
+
+#ProfilName{
+	display: inline-block;
+	padding-bottom: 40px;
+	border-bottom: 1px solid lightgrey;
+	width: 800px;
+}
+
+#AuthorBlogDetails{
+	width: 800px;
+    color: black;
+    border-bottom: 1px solid lightgrey;
+    display: inline-block;
+    padding-bottom: 35px;
+}
+
+.CommentairesBlogDetails{
+	margin-top: 70px;
+}
+
+#CommentsTitleDetails{
+	display: inline-block;
+	width: 100%;
+}
+
+#CommentsBlogDetails{
+	float: right;
+    width: 700px;
+}
+
+.PrimaryCommentaire{
+	height: 270px;
+}
+
+.SecondaryCommentaire{
+	margin-left: 60px;
+	height: 240px;
+}
+
+.SecondaryCommentaire p{
+	margin-left: 60px;
+	width: 600px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+#DateOfCommentaire{
+    margin-top: 10px;
+    background-color: #c62650;
+    height: 35px;
+    width: 145px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+#ReplyButtonDetails{
+	font-family: 'Roboto';
+    font-size: 16px;
+    color: #696969;
+    border: none;
+    height: 35px;
+    width: 90px;
+    margin-left: 25px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+#ReplyButtonDetails:hover{
+	transition-duration: 0.3s;
+	color: white;
+	background-color: #c62650;
+}
+
+.BarreGrise{
+	
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    float: right;
+}
+
+#PrimaryBarreGrise{width: 660px;}
+
+#SecondaryBarreGrise{width: 600px}
+
+textarea{
+	margin-top: 50px;
+	padding: 30px;
+    resize: none;
+    width: 738px;
+    height: 210px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.InputDetails{
+	font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 30px;
+	height: 50px;
+	width:351px;
+	padding-left: 30px;
+	 margin-top: 26px;
+}
+
+#InputRight{
+	float: right;
+}
+
+#SubmitButtonDetails{
+	font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+	float: right;
+	background-color: #c62650;
+	width: 200px;
+	height: 48px;
+	border:1px solid #c62650;
+	margin-top: 40px;
+	cursor: pointer;
+	outline: none;
+}
+
+#SubmitButtonDetails:hover{
+	transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	background-color: white;
+	border:1px solid #c62650;
+	color: #c62650;
+}
 
 /* FOOTER */
 
@@ -1166,6 +1435,7 @@ h2.demotitle{
 a.buttondemo{text-decoration: none;}
 
 #buttondemo:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	color: white;
 	background: #242f39 ;
@@ -1188,15 +1458,16 @@ a.buttondemo{text-decoration: none;}
     line-height: 61px;
     color: white;
     border: 2px solid #c62650;
-    margin-left: 193px;
+    margin-left: -230px;
     background: #c62650;
     border-radius: 45px;
     position: absolute;
-    margin-top: -66px;
+    margin-top: 1px;
    
 }
 
 #subscribe:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	border: 2px solid #c62650;
 	background: white;
@@ -1215,10 +1486,9 @@ a.buttondemo{text-decoration: none;}
     margin-bottom: 150px;
 }
 
-input.form:focus{
+input.form{
 	box-shadow: 0px 2px 15px #c62650;
 	border-color: white;
-	height: 57px;
 	margin-top: 2px;
 	margin-bottom: 2px;
 }
@@ -1230,7 +1500,6 @@ input.form{
 	border-radius: 45px;
 	width: 95%;
 	padding-left: 35px;
-	border: solid 2px #c62650;
 	font-size: 16px;
 }
 
@@ -1294,6 +1563,7 @@ span#huriright {
 }
 
 .lifooter a:hover{
+	transition-duration: 0.3s;
 	cursor:pointer;
 	color: #c62650;
 }
