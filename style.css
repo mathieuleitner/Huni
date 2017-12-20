@@ -604,14 +604,15 @@ margin-right: 5px}
 
 .News div.container{margin-top: 430px;} 
 
-.emplacementPhoto{background-color: lightgrey;
-height: 150px;
-width: 370px;
-margin-bottom: 35px;
+.emplacementPhoto{
+	background-color: #f3f3f3;
+	height: 150px;
+	width: 370px;
+	margin-bottom: 35px;
 }
 
 .cardsNews{height: 290px;
-	border-bottom: solid 3px lightgrey;
+	border-bottom: solid 3px #eae9ed;
 	width: 370px;}
 
 div.cardsNews:hover{
@@ -693,7 +694,8 @@ img#imageBlog{
 	float: left;
 	height: 240px;
 	width: 300px;
-	background-color: lightgrey;
+	background-color: #ebebeb;
+	border: none;
 }
 
 p#paraBlog{margin-top: 25px;}
@@ -840,6 +842,7 @@ h10{
 }
 
 #SendMessage{
+	outline: none;
 	font-family: 'Roboto';
     font-size: 15px;
     line-height: 41px;
@@ -1307,6 +1310,7 @@ h16{
 }
 
 #ReplyButtonDetails{
+	cursor: pointer;
 	font-family: 'Roboto';
     font-size: 16px;
     color: #696969;
@@ -1463,7 +1467,7 @@ a.buttondemo{text-decoration: none;}
     border-radius: 45px;
     position: absolute;
     margin-top: 1px;
-   
+    outline: none;
 }
 
 #subscribe:hover{
